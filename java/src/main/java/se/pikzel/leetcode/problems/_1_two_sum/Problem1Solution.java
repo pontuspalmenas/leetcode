@@ -2,7 +2,7 @@ package se.pikzel.leetcode.problems._1_two_sum;
 
 // https://leetcode.com/problems/two-sum/
 
-public class Solution {
+public class Problem1Solution {
     // Use naïve brute-force solution: O(n^2) time, but O(1) space.
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {

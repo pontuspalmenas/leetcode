@@ -4,14 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class SolutionTest {
+class Problem1SolutionTest {
     @Test
     void testDefaultCase() {
         var nums = new int[]{2, 7, 11, 15};
         var target = 9;
 
         var expected = new int[]{0, 1};
-        var result = new Solution().twoSum(nums, target);
+        var result = new Problem1Solution().twoSum(nums, target);
         assertArrayEquals(expected, result);
     }
 
@@ -21,7 +21,7 @@ class SolutionTest {
         var target = 6;
 
         var expected = new int[]{1, 2};
-        var result = new Solution().twoSum(nums, target);
+        var result = new Problem1Solution().twoSum(nums, target);
         assertArrayEquals(expected, result);
     }
 }
